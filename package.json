@@ -1,0 +1,11 @@
+{
+  "name": "irv-algo",
+  "version": "1.0.0",
+  "description": "An instant-runoff-voting algorithm implemented in Typescript. ",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Julich",
+  "license": "MIT"
+}
