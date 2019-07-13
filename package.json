@@ -2,10 +2,36 @@
   "name": "irv-algo",
   "version": "1.0.0",
   "description": "An instant-runoff-voting algorithm implemented in Typescript. ",
-  "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && node dist/test.js",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
+  "keywords": [
+    "instant",
+    "runoff",
+    "voting",
+    "ranked",
+    "choice",
+    "irv",
+    "rcv",
+    "poll",
+    "polls",
+    "ballot",
+    "ballots",
+    "irv-algo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesjulich/irv-algo.git"
+  },
+  "homepage": "https://github.com/jamesjulich/irv-algo",
   "author": "James Julich",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
